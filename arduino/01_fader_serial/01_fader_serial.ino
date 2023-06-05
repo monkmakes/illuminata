@@ -10,7 +10,6 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Enter value of brightness 0 to 255");
   Serial.println("Make sure Serial Monitor set to No Line Ending");
-  analogWrite(illuminataPin, 255);
 }
 
 void loop() {
